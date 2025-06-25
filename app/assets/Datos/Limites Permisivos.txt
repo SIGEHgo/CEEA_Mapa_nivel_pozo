@@ -1,0 +1,23 @@
+| Elemento                    | Límite permisible       | Unidad              |
+|----------------------------|--------------------------|---------------------|
+| Arsénico                   | 0.025                    | mg/L                |
+| Bario                      | 1.3                     | mg/L                |
+| Cadmio                     | 0.005                    | mg/L                |
+| Cobre                      | 2.0                      | mg/L                |
+| Hierro                     | 0.3                      | mg/L                |
+| Manganeso                  | 0.15                     | mg/L                |
+| Plomo                      | 0.01                     | mg/L                |
+| Zinc                       | 5.0                      | mg/L                |   # Pendiente
+| Cianuros                   | 0.07                     | mg/L                |
+| Cloro residual             | 0.2–1.5                  | mg/L                |
+| Cloruros                   | 250                      | mg/L                |   # Pendiente
+| Dureza total               | 500                      | mg/L (como CaCO₃)   |
+| Fluoruros                  | 1.5                      | mg/L                |
+| Nitratos                   | 11                       | mg/L (como N)       |   # Duda
+| Nitritos                   | 0.9                      | mg/L (como N)       |   # Duda
+| pH                         | 6.5–8.5                  | Unidades de pH      |   # Duda Unidades
+| Sólidos disueltos totales  | 1000                     | mg/L                |
+| Sulfatos                   | 400                      | mg/L                |
+| Cloro total                | —                        | (no especificado)   |   # Duda
+| Conductividad              | 2000                     | µS/cm               |   
+| Temperatura                | 25                       | °C                  |   # Duda

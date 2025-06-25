@@ -1,0 +1,197 @@
+body{
+    margin: 0;  
+}
+
+
+.slider-custom-R .rc-slider-track {
+    background-color: #9C2448!important; /* Cambia el color de la barra */
+}
+
+.slider-custom-R .rc-slider-handle {
+    border-color: #9C2448 !important; /* Cambia el color del botón deslizante */
+    background-color: #9C2448 !important;
+}
+
+.slider-custom-R .rc-slider-mark-text {
+    color: #ffffff !important; /* Cambia el color de las marcas */
+}
+
+.slider-custom-R .rc-slider-dot-active {
+    border-color: #9C2448 !important;
+    background-color: #9C2448 !important;
+}
+
+
+#slider_periodo {
+    padding: 2vh 2vw 1vh 2vw !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Barra_de_seleccion {
+    background-color: rgb(98, 17, 50) !important; /* Azul oscuro */
+    height: 6vh; /* Mantiene la altura */
+    padding: 0vh 0vw !important;
+}
+
+
+
+
+
+.nav-link {
+    color: rgb(0, 0, 0) !important;
+    background-color: transparent !important;
+}
+
+.nav-link.active {
+    background-color: rgb(179, 142, 93) !important;
+    height: 6vh; /* Mantiene la altura */
+    color: rgb(0, 0, 0) !important;
+}
+
+
+
+
+/* Estilo general del dropdown */
+.buscador_municipios_custom {
+    width: 15vw;             /* Ancho completo */
+    height: 3vh;
+    font-size: 12px;         /* Tamaño de la fuente */
+    color: #333;             /* Color del texto */
+    background-color: #f8f8f8; /* Color de fondo */
+    border: 1px solid #ccc;  /* Borde gris */
+    border-radius: 5px;      /* Bordes redondeados */
+    padding: 0.1px 0.1px;       /* Espaciado interno */
+}
+
+
+/* Estilo cuando está enfocado (clicked/seleccionado) */
+.buscador_municipios_custom:focus {
+    outline: none;
+    border-color: #5b9bd5;
+    box-shadow: 0 0 5px rgba(91,155,213,0.5);
+}
+
+
+
+
+
+
+
+/* Efecto Hover y Transición Suave */
+.boton_dudas_custom {
+    background-color: #007bff; /* Color azul */
+    border: none;
+    border-radius: 100%; /* Botón circular */
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.boton_dudas_custom:hover {
+    background-color: #0056b3; /* Azul más oscuro */
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño */
+}
+
+/* Animación Sutil al Hacer Clic */
+.boton_dudas_custom:active {
+    transform: scale(0.9);
+}
+
+
+/* Sombra Brillante al Pasar el Cursor*/
+.boton_dudas_custom:hover {
+    box-shadow: 0px 0px 10px rgba(0, 123, 255, 0.7);
+}
+
+/* Cambio de Cursor a "Pointer" */
+.boton_dudas_custom {
+    cursor: pointer;
+}
+
+
+
+.simbologia_imagen_custom {
+    background-color: rgba(255,255,255,0.8);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Espaciado y dimensiones */
+.buttons_nav {
+    margin: 3vh 0vh; /* Espaciado externo */
+    cursor: pointer;
+}
+
+/* Bordes y esquinas redondeadas */
+.buttons_nav {
+    border: 0.5px solid #fff; /* Borde */
+    border-radius: 100vw; /* Bordes redondeados */
+}
+
+
+
+/* Efectos de interacción */
+.buttons_nav:hover {
+    background-color: #ff0000; /* Cambia el color de fondo al pasar el mouse */
+    transform: scale(1.1);  /* Aumenta el tamaño del botón */
+    
+}
+
+/* Efecto al presionar el botón */
+.buttons_nav:active {
+    background-color: #ff0000; /* Un tono más oscuro al presionar */
+    transform: scale(0.95); /* Disminuye ligeramente el tamaño para simular un "clic" */
+}
+
+
+
+
