@@ -3,7 +3,7 @@
     "path": "C:/Users/SIGEH/Desktop/Lalo/Gob/Proyectos/CEEA_Mapa_nivel_pozo/app/assets/Datos/Mapa.R",
     "project_path": "app/assets/Datos/Mapa.R",
     "type": "r_source",
-    "hash": "2677772765",
+    "hash": "2934289522",
     "contents": "",
     "dirty": false,
     "created": 1750886498836.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "288,0",
-        "scrollLine": "269"
+        "cursorPosition": "652,14",
+        "scrollLine": "637"
     },
     "folds": "",
-    "lastKnownWriteTime": 1750887631,
+    "lastKnownWriteTime": 1750975304,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1750887631831,
+    "last_content_update": 1750975304049,
     "read_only": false,
     "read_only_alternatives": []
 }
