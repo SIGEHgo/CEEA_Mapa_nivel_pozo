@@ -374,9 +374,11 @@ for (i in seq_along(anios)) {
 ##############################
 ### Actualizacion del mapa ###
 ##############################
-
+library(leaflet)
 library(leaflet.extras)
 library(leaflet.extras2)
+library(htmltools)
+library(htmlwidgets)
 
 modal_1 = HTML(paste0(
   '<div class="modal fade" id="infobox" role="dialog">',
