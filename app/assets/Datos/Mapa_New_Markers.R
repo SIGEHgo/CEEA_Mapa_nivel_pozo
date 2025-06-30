@@ -112,16 +112,19 @@ mapa_web = leaflet() |>
   addTiles()
 
 for (x in seq_along(columnas_interes)) {
+  
   col_actual = columnas_interes[x]
   print(col_actual)
   
+  ################
+  ### Pintador ###
+  ################
   
   inferior = limite_inferior[x]
   superior = limite_superior[x]
   unidad = unidades[x]
   
   if (inferior == 0) {
-    
     getColor = function(columna) {
       sapply(columna, function(x) {
         if (is.na(x)) {
@@ -136,23 +139,21 @@ for (x in seq_along(columnas_interes)) {
       })
     }
     
-    
     iconos_color = function(columna) {
       sapply(columna, function(x) {
         if (is.na(x)) {
-          "app/assets/Imagenes/Marcadores/No hay dato.png"
+          "app/assets/Imagenes/Marcadores/No hay dato_gota.png"
         } else if (x >= inferior && x <= superior) {
-          "app/assets/Imagenes/Marcadores/Verde.png"
+          "app/assets/Imagenes/Marcadores/Verde_gota.png"
         } else if (x > superior) {
-          "app/assets/Imagenes/Marcadores/Rojo.png"
+          "app/assets/Imagenes/Marcadores/Rojo_gota.png"
         } else {
-          "app/assets/Imagenes/Marcadores/No hay dato.png"
+          "app/assets/Imagenes/Marcadores/No hay dato_gota.png"
         }
       })
     }
     
-    
-  } else {
+  }else{
     getColor = function(columna) {
       sapply(columna, function(x) {
         if (is.na(x)) {
@@ -169,29 +170,26 @@ for (x in seq_along(columnas_interes)) {
       })
     }
     
-    
-    
     iconos_color = function(columna) {
       sapply(columna, function(x) {
         if (is.na(x)) {
-          "app/assets/Imagenes/Marcadores/No hay dato.png"
+          "app/assets/Imagenes/Marcadores/No hay dato_gota.png"
         } else if (x >= inferior && x <= superior) {
-          "app/assets/Imagenes/Marcadores/Verde.png"
+          "app/assets/Imagenes/Marcadores/Verde_gota.png"
         } else if (x > superior) {
-          "app/assets/Imagenes/Marcadores/Amarillo.png."
+          "app/assets/Imagenes/Marcadores/Amarillo_gota.png."
         } else if(x< inferior){
-          "app/assets/Imagenes/Marcadores/Rojo.png"
+          "app/assets/Imagenes/Marcadores/Rojo_gota.png"
         } else {
-          "app/assets/Imagenes/Marcadores/No hay dato.png"
+          "app/assets/Imagenes/Marcadores/No hay dato_gota.png"
         }
       })
     }
-    
   }
-  
   
   colores_localidad = getColor(loc_map[[col_actual]])
   
+  ### Generado de icono
   iconos_marcadores = icons(iconUrl = iconos_color(datos_mapa[[col_actual]]),
                             iconWidth = 35, iconHeight = 45,
                             iconAnchorX = 17, iconAnchorY = 42,
@@ -199,6 +197,10 @@ for (x in seq_along(columnas_interes)) {
                             shadowWidth = 36, shadowHeight = 16,
                             shadowAnchorX = 10, shadowAnchorY = 12)
   
+  
+  ################
+  ### Mapa Web ###
+  ################
   
   mapa_web = mapa_web  |> 
     addMarkers(
@@ -217,6 +219,7 @@ for (x in seq_along(columnas_interes)) {
     addLayersControl(baseGroups = columnas_completas, options = layersControlOptions(collapsed = F)) 
   
   
+  ### Leyendas ###
   if (inferior == 0) {
     mapa_web = mapa_web |> 
       addLegend("bottomleft", colors = c("gray", "red", "green"), values = datos_mapa[[col_actual]],
@@ -234,6 +237,11 @@ for (x in seq_along(columnas_interes)) {
   }
   
 }
+
+
+###############
+### Adornos ###
+###############
 
 mapa_web = mapa_web |> 
   addPolygons(data = municipios, label = municipios$NOM_MUN, fillColor = "gray", color = "gray", fillOpacity = 0.1, opacity = 1,weight = 0.5) |> 
@@ -253,7 +261,7 @@ mapa_web = mapa_web |>
     "function(el, x) {
       var map = this;
       
-      // 1) Insertar un mensaje encima del control de capas
+      // Insertar un mensaje encima del control de capas
       var layersControl = document.getElementsByClassName('leaflet-control-layers-list')[0];  // Devuelve un HTMLCollection con todos los nodos que tienen esa clase.
       var instrEmpty = document.createElement('div');   // Crea un <div> vacío en memoria.
       instrEmpty.style.height = '10px'; // Para dejar un margen visual.
@@ -265,7 +273,7 @@ mapa_web = mapa_web |>
       layersControl.insertBefore(instr, layersControl.firstChild);
       
       
-      
+      // Mostrar solo una leyenda
       function actualizarLeyendas() {
         var baseLayers = document.querySelectorAll('.leaflet-control-layers-base input[type=radio]');
         var leyendas = document.getElementsByClassName('info legend leaflet-control');
@@ -297,18 +305,24 @@ mapa_web = mapa_web |>
       
       
       
+      
+      
+      
+      
+      
+      // Modificar el tamaño de los markers respecto al Zoom
       function resizeMarkers() {
         var zoom = map.getZoom();
         map.eachLayer(function(layer) {
           if (layer.options && layer.options.icon && layer.options.icon.options) {
-            var newSize;
-            if (zoom<=10) {
-              newSize = 0.005
+            var iconSize;
+            if (zoom < 14) {
+              iconSize = [21, 27];
             } else {
-              newSize = (zoom+20)/2
+              console.log(zoom)
+              iconSize = [35, 45];
             }
-            
-            var iconSize = [newSize, newSize];
+      
             layer.setIcon(
               L.icon({
                 iconUrl: layer.options.icon.options.iconUrl,
@@ -324,8 +338,10 @@ mapa_web = mapa_web |>
       map.on('zoomend', resizeMarkers);
       map.whenReady(resizeMarkers);
       map.on('baselayerchange',resizeMarkers);
+      
 
     }"
   )
 
 mapa_web
+
