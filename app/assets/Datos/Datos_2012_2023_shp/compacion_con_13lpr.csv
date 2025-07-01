@@ -1,0 +1,196 @@
+"","NOM_MUN_ORIGINAL_MAL","datos_original_mal","datos_localidad_bien","NOM_MUN_LOCALIDAD_BIEN","CVEGEO","dist"
+"1","San Bartolo Tutotepec","13053_San Salvador","13035_San Salvador","Metepec","1303500200022800",0.0185185185185185
+"2","Cuautepec de Hinojosa","13016_San Jeronimo","13061_San Jeronimo","Tepeapulco","1306100100022800",0.0185185185185185
+"3","Cardonal","13015_Iglesia Vieja (Iglesia Nueva)","13018_Iglesia Vieja (Iglesia Nueva)","Chapulhuacán","1301800180017800",0.019047619047619
+"4","Tepehuacán de Guerrero","13062_Manantiales De Cerro Colorado","13067_Manantiales De Cerro Colorado","Tezontepec de Aldama","1306700140030800",0.019047619047619
+"5","Ajacuba","13005_San Francisco Sacachichilco","13006_San Francisco Sacachichilco","Alfajayucan","1300600310020800",0.0202020202020202
+"6","Molango de Escamilla","13042_Santa Cruz","13024_Santa Cruz","Huasca de Ocampo","1302400770029800",0.0208333333333334
+"7","Calnali","13014_San Antonio Sabanillas","13015_San Antonio Sabanillas","Cardonal","1301500210053800",0.0238095238095237
+"8","Calnali","13014_Santa Maria Amealco","13017_Santa Maria Amealco","Chapantongo","1301700030039800",0.0266666666666667
+"9","Jacala de Ledezma","13031_Revolucion Mexicana","13032_Revolucion Mexicana","Jaltocán","1303200260016800",0.0266666666666667
+"10","Atlapexco","13011_Santa Maria Amajac","13012_Santa Maria Amajac","Atotonilco el Grande","1301200330032800",0.0277777777777777
+"11","San Felipe Orizatlán","13046_Pacheco De Allende","13054_Pacheco De Allende","San Salvador","1305400150013800",0.0277777777777777
+"12","Chilcuautla","13019_San Juan Hueyapan","13016_San Juan Hueyapan","Cuautepec de Hinojosa","1301600130205800",0.0289855072463768
+"13","Nicolás Flores","13043_Loma Del Progreso","13044_Loma Del Progreso","Nopala de Villagrán","1304400160036800",0.0289855072463768
+"14","Tenango de Doria","13060_La Cuarta Manzana","13064_La Cuarta Manzana","Tepetitlán","1306400200024800",0.0289855072463768
+"15","Tenango de Doria","13060_La Cuarta Manzana","13076_La Cuarta Manzana","Tula de Allende","1307600730010800",0.0289855072463768
+"16","Agua Blanca de Iturbide","13004_Vicente Guerrero","13001_Vicente Guerrero","Acatlán","1300100290024800",0.0303030303030303
+"17","Agua Blanca de Iturbide","13004_Vicente Guerrero","13005_Vicente Guerrero","Ajacuba","1300500030038800",0.0303030303030303
+"18","Eloxochitlán","13020_San Miguel Regla","13024_San Miguel Regla","Huasca de Ocampo","1302400270048800",0.0303030303030303
+"19","Agua Blanca de Iturbide","13004_Vicente Guerrero","13045_Vicente Guerrero","Omitlán de Juárez","1304500120014800",0.0303030303030303
+"20","Yahualica","13080_Xindho San Pedro","13084_Xindho San Pedro","Zimapán","1308401780065800",0.0303030303030303
+"21","Yahualica","13080_Xindho San Pedro","13084_Xindho San Pedro","Zimapán","1308401780065800",0.0303030303030303
+"22","Tenango de Doria","13060_Amola De Ocampo","13062_Amola De Ocampo","Tepehuacán de Guerrero","130620006002A800",0.0317460317460319
+"23","Chilcuautla","13019_Xayahualulco","13016_Xayahualulco","Cuautepec de Hinojosa","1301600380027800",0.0370370370370371
+"24","Chapulhuacán","13018_Xayahualulco","13016_Xayahualulco","Cuautepec de Hinojosa","1301600380027800",0.0370370370370371
+"25","Lolotla","13034_Itztazacuala","13037_Itztazacuala","Metztitlán","1303700200050800",0.0370370370370371
+"26","Ajacuba","13005_La Huapilla","13006_La Huapilla","Alfajayucan","1300600140016800",0.0392156862745099
+"27","Atlapexco","13011_Agua Limpia","13012_Agua Limpia","Atotonilco el Grande","1301200380066800",0.0392156862745099
+"28","Francisco I. Madero","13023_Los Cerezos","13025_Los Cerezos","Huautla","1302500090026800",0.0392156862745099
+"29","Xochiatipan","13078_Huitznopala","13080_Huitznopala","Yahualica","1308000090028800",0.0392156862745099
+"30","Mineral del Chico","13038_El Paraiso","13028_El Paraiso","Huejutla de Reyes","1302802630047800",0.0416666666666667
+"31","Mineral del Chico","13038_El Durazno","13030_El Durazno","Ixmiquilpan","1303000530026800",0.0416666666666667
+"32","Mineral del Chico","13038_El Durazno","13036_El Durazno","San Agustín Metzquititlán","130360010002A800",0.0416666666666667
+"33","Mineral del Chico","13038_El Durazno","13036_El Durazno","San Agustín Metzquititlán","1303600380034800",0.0416666666666667
+"34","Metepec","13035_Carboneras","13038_Carboneras","Mineral del Chico","1303800040024800",0.0416666666666667
+"35","Molango de Escamilla","13042_Maravillas","13044_Maravillas","Nopala de Villagrán","1304400190036800",0.0416666666666667
+"36","Mineral del Chico","13038_El Paraiso","13048_El Paraiso","Pachuca de Soto","1304802520020800",0.0416666666666667
+"37","San Salvador","13054_Ventoquipa","13056_Ventoquipa","Santiago Tulantepec de Lugo Guerrero","130560008015A800",0.0416666666666667
+"38","Mineral del Chico","13038_El Durazno","13058_El Durazno","Tasquillo","1305800320031800",0.0416666666666667
+"39","Santiago de Anaya","13055_Portezuelo","13058_Portezuelo","Tasquillo","1305800170031800",0.0416666666666667
+"40","Santiago Tulantepec de Lugo Guerrero","13056_La Viejita","13060_La Viejita","Tenango de Doria","1306000410025800",0.0416666666666667
+"41","Tenango de Doria","13060_Acatlajapa","13062_Acatlajapa","Tepehuacán de Guerrero","130620116002A800",0.0416666666666667
+"42","Atotonilco el Grande","13012_Pezmatlan","13014_Pezmatlan","Calnali","1301400110037800",0.0444444444444445
+"43","Huasca de Ocampo","13024_Tamoyon I","13025_Tamoyon I","Huautla","130250038005A800",0.0444444444444445
+"44","Huautla","13025_Huehuetla","13028_Huehuetla","Huejutla de Reyes","1302800510047800",0.0444444444444445
+"45","Huazalingo","13026_Huehuetla","13028_Huehuetla","Huejutla de Reyes","1302800510047800",0.0444444444444445
+"46","La Misión","13040_Tetlapaya","13034_Tetlapaya","Lolotla","1303400290025800",0.0444444444444445
+"47","Tepehuacán de Guerrero","13062_La Ermita","13061_La Ermita","Tepeapulco","1306100990037800",0.0444444444444445
+"48","Tepehuacán de Guerrero","13062_La Ermita","13064_La Ermita","Tepetitlán","1306400160024800",0.0444444444444445
+"49","Atotonilco el Grande","13012_Pozuelos","13015_Pozuelos","Cardonal","1301500190072800",0.0476190476190477
+"50","Chapantongo","13017_Neblinas","13018_Neblinas","Chapulhuacán","1301800210021800",0.0476190476190477
+"51","Molango de Escamilla","13042_El Dothu","13043_El Dothu","Nicolás Flores","1304300090043800",0.0476190476190477
+"52","Cuautepec de Hinojosa","13016_San Pedro Gilo (Gilo)","13020_San Pedro Gilo (Gilo)","Eloxochitlán","130200005002A800",0.0493827160493827
+"53","Eloxochitlán","13020_La Loma","13003_La Loma","Actopan","1300300150090800",0.0512820512820513
+"54","Eloxochitlán","13020_La Loma","13007_La Loma","Almoloya","1300700720013800",0.0512820512820513
+"55","Eloxochitlán","13020_La Loma","13008_La Loma","Apan","1300800460044800",0.0512820512820513
+"56","Calnali","13014_Texcaco","13014_Tecpaco","Calnali","1301400150018800",0.0512820512820513
+"57","Atlapexco","13011_La Pena","13017_La Pena","Chapantongo","130170047001A800",0.0512820512820513
+"58","Eloxochitlán","13020_La Loma","13024_La Loma","Huasca de Ocampo","1302400460014800",0.0512820512820513
+"59","Eloxochitlán","13020_La Loma","13025_La Loma","Huautla","1302500690045800",0.0512820512820513
+"60","Eloxochitlán","13020_La Loma","13030_La Loma","Ixmiquilpan","1303001140030800",0.0512820512820513
+"61","Lolotla","13034_Metepec","13035_Metepec","Metepec","1303500340022800",0.0512820512820513
+"62","Eloxochitlán","13020_La Loma","13052_La Loma","San Agustín Tlaxiaca","1305200700023800",0.0512820512820513
+"63","Eloxochitlán","13020_La Loma","13060_La Loma","Tenango de Doria","1306000620025800",0.0512820512820513
+"64","Tulancingo de Bravo","13077_Xochitl","13078_Xochitl","Xochiatipan","130780038002A800",0.0512820512820513
+"65","Tlanchinol","13073_Atlalco","13078_Atlalco","Xochiatipan","1307800080015800",0.0512820512820513
+"66","Metepec","13035_Tecruz Copaza","13037_Tecruz Cozapa","Metztitlán","130370075007A800",0.0536062378167642
+"67","Pacula","13047_Metzquititlan","13037_Metzquititla","Metztitlán","1303700940012800",0.0536062378167642
+"68","Omitlán de Juárez","13045_Canoas","13047_Canoas","Pacula","1304700060038800",0.0555555555555557
+"69","Huejutla de Reyes","13028_Agua Fria Grande","13031_Agua Fria Grande","Jacala de Ledezma","1303100030023800",0.0606060606060606
+"70","Atotonilco de Tula","13013_San Jose Bojay","13023_San Jose Boxay","Francisco I. Madero","1302300130017800",0.0666666666666668
+"71","Huautla","13025_Huazalingo","13025_Huazalinguillo","Huautla","130250036005A800",0.0666666666666668
+"72","San Agustín Metzquititlán","13036_San Juan Solis","13052_San Juan Solis","San Agustín Tlaxiaca","1305200130019800",0.0666666666666668
+"73","Santiago Tulantepec de Lugo Guerrero","13056_Plan De Ayala","13049_Plan De Ayala","Pisaflores","1304900470028800",0.0701754385964912
+"74","Santiago Tulantepec de Lugo Guerrero","13056_Plan De Ayala","13049_Plan De Ayala","Pisaflores","1304900470028800",0.0701754385964912
+"75","Eloxochitlán","13020_Almolaya","13020_Almoloya","Eloxochitlán","1302000030034800",0.0732600732600733
+"76","San Agustín Metzquititlán","13036_Ixcuinquilapilco","13052_Ixcuinquitlapilco","San Agustín Tlaxiaca","1305200090038800",0.0737812911725956
+"77","Pisaflores","13049_Cieneguillas","13012_Cieneguillas","Atotonilco el Grande","1301200040066800",0.0740740740740742
+"78","Xochiatipan","13078_Santa Teresa","13022_Santa Teresa","Epazoyucan","1302200220024800",0.0740740740740742
+"79","Huehuetla","13027_Minas Viejas","13031_Minas Viejas","Jacala de Ledezma","1303100200057800",0.0740740740740742
+"80","San Felipe Orizatlán","13046_San Salvador","13035_San Salvador","Metepec","1303500200022800",0.0740740740740742
+"81","Pisaflores","13049_Cieneguillas","13036_Cieneguillas","San Agustín Metzquititlán","1303600080015800",0.0740740740740742
+"82","Calnali","13014_Barrio Nuevo","13036_Barrio Nuevo","San Agustín Metzquititlán","130360025002A800",0.0740740740740742
+"83","San Agustín Metzquititlán","13036_San Bernardo","13042_San Bernardo","Molango de Escamilla","1304200180027800",0.0740740740740742
+"84","Atotonilco el Grande","13012_Los Tapancos","13045_Los Tapancos","Omitlán de Juárez","1304500430014800",0.0740740740740742
+"85","Calnali","13014_Barrio Nuevo","13073_Barrio Nuevo","Tlanchinol","1307301310019800",0.0740740740740742
+"86","San Felipe Orizatlán","13046_San Salvador","13073_San Salvador","Tlanchinol","1307300360038800",0.0740740740740742
+"87","Calnali","13014_Barrio Nuevo","13079_Barrio Nuevo","Xochicoatlán","1307900290046800",0.0740740740740742
+"88","San Agustín Metzquititlán","13036_San Bernardo","13081_San Bernardo","Zacualtipán de Ángeles","1308100170010800",0.0740740740740742
+"89","Mineral del Chico","13038_Plan Grande","13004_Plan Grande","Agua Blanca de Iturbide","1300400150026800",0.0784313725490197
+"90","Apan","13008_Tecolotitla","13011_Tecolotitla","Atlapexco","130110033004A800",0.0784313725490197
+"91","Santiago Tulantepec de Lugo Guerrero","13056_Potrerillos","13047_Potrerillos","Pacula","1304700180023800",0.0784313725490197
+"92","Tlahuelilpan","13070_Tlahuiltepa","13068_Tlahuiltepa","Tianguistengo","1306800450023800",0.0784313725490197
+"93","Huehuetla","13027_Teacala","13028_Teacal","Huejutla de Reyes","1302800870013800",0.0790598290598291
+"94","San Felipe Orizatlán","13046_Acuapa","13046_Tecuapa","San Felipe Orizatlán","1304601560045800",0.0790598290598291
+"95","Nopala de Villagrán","13044_Mizquiapan","13045_Mixquiapan","Omitlán de Juárez","1304500150029800",0.0833333333333334
+"96","Zacualtipán de Ángeles","13081_Doxhi","13084_Doxthi","Zimapán","1308400180101800",0.085858585858586
+"97","Ixmiquilpan","13030_Santa Ana","13012_Santa Ana","Atotonilco el Grande","1301200310066800",0.0888888888888889
+"98","Xochicoatlán","13079_Chacalapa","13016_Chacalapa","Cuautepec de Hinojosa","1301600100027800",0.0888888888888889
+"99","Ixmiquilpan","13030_Santa Ana","13028_Santa Ana","Huejutla de Reyes","1302802390051800",0.0888888888888889
+"100","Ixmiquilpan","13030_Santa Ana","13046_Santa Ana","San Felipe Orizatlán","1304600510026800",0.0888888888888889
+"101","Xochiatipan","13078_Xochicoatlan","13078_Xochitl","Xochiatipan","130780038002A800",0.0925925925925926
+"102","Cuautepec de Hinojosa","13016_El Bocja","13009_El Bocja","El Arenal","1300900020018800",0.0952380952380952
+"103","Nopala de Villagrán","13044_Pacula","13044_Pachuquilla","Nopala de Villagrán","1304401120021800",0.0980392156862745
+"104","Tlahuiltepa","13071_Tulancingo","13077_Tollancingo","Tulancingo de Bravo","1307701130164800",0.100490196078431
+"105","Tlanchinol","13073_Tulancingo","13077_Tollancingo","Tulancingo de Bravo","1307701130164800",0.100490196078431
+"106","La Misión","13040_Metepec","13035_Metepec","Metepec","1303500340022800",0.102564102564103
+"107","Huasca de Ocampo","13024_Huazalingo","13025_Huazalinguillo","Huautla","130250036005A800",0.104166666666667
+"108","Mixquiahuala de Juárez","13041_Molango","13015_Molanguito","Cardonal","1301500470049800",0.108974358974359
+"109","Mixquiahuala de Juárez","13041_Molango","13015_Molanguito","Cardonal","1301500470049800",0.108974358974359
+"110","Mixquiahuala de Juárez","13041_Molango","13015_Molanguito","Cardonal","1301500470049800",0.108974358974359
+"111","Tianguistengo","13068_Las Cantinas","13036_Las Canaditas","San Agustín Metzquititlán","130360042002A800",0.110501949317739
+"112","Almoloya","13007_Apan","13037_Apanco","Metztitlán","1303701130050800",0.116666666666667
+"113","Almoloya","13007_Apan","13037_Apanco","Metztitlán","130370083007A800",0.116666666666667
+"114","Almoloya","13007_Apan","13037_Apanco","Metztitlán","130370083007A800",0.116666666666667
+"115","Almoloya","13007_Apan","13037_Apanco","Metztitlán","1303701130050800",0.116666666666667
+"116","Tezontepec de Aldama","13067_Tlahuelilpan","13068_Tlahuiltepa","Tianguistengo","1306800450023800",0.116993464052287
+"117","Apan","13008_Atlapexco","13080_Atlajco","Yahualica","1308000040013800",0.12008547008547
+"118","Apan","13008_Atlapexco","13080_Atlalco","Yahualica","1308000050013800",0.12008547008547
+"119","Xochicoatlán","13079_Zacualtipan","13062_Zacualtipanito","Tepehuacán de Guerrero","1306200300015800",0.122549019607843
+"120","Alfajayucan","13006_Almolaya","13001_Almoloya","Acatlán","1300100040039800",0.123015873015873
+"121","Alfajayucan","13006_Almolaya","13001_Almoloya","Acatlán","1300100040039800",0.123015873015873
+"122","Alfajayucan","13006_Almolaya","13020_Almoloya","Eloxochitlán","1302000030034800",0.123015873015873
+"123","Alfajayucan","13006_Almolaya","13020_Almoloya","Eloxochitlán","1302000030034800",0.123015873015873
+"124","El Arenal","13009_Eloxochitlan","13014_Eloxochititla","Calnali","1301400940018800",0.125730994152047
+"125","Jaltocán","13032_Puerto La Piedra","13043_Puerto De Piedra","Nicolás Flores","130430018001A800",0.125996810207337
+"126","Atlapexco","13011_El Panteon","13016_El Pinon","Cuautepec de Hinojosa","1301600600031800",0.130952380952381
+"127","Atlapexco","13011_El Panteon","13031_El Pinon","Jacala de Ledezma","1303100520042800",0.130952380952381
+"128","Cardonal","13015_Chapantongo","13017_Zimapantongo","Chapantongo","1301700220024800",0.132897603485839
+"129","San Agustín Metzquititlán","13036_Orizatlan","13030_Orizabita","Ixmiquilpan","1303000340026800",0.133333333333333
+"130","San Bartolo Tutotepec","13053_Orizatlan","13030_Orizabita","Ixmiquilpan","1303000340026800",0.133333333333333
+"131","Tulancingo de Bravo","13077_Xochicoatlan","13078_Xochitl","Xochiatipan","130780038002A800",0.136752136752137
+"132","Huejutla de Reyes","13028_Jaltocan","13028_Ixcatlan","Huejutla de Reyes","1302800570047800",0.136904761904762
+"133","El Arenal","13009_Tepatepec","13019_Texcatepec","Chilcuautla","1301900130029800",0.145405982905983
+"134","Pacula","13047_Pisaflores","13057_Mirasoles","Singuilucan","1305700150049800",0.145405982905983
+"135","Omitlán de Juárez","13045_Pisaflores","13057_Mirasoles","Singuilucan","1305700150049800",0.145405982905983
+"136","Lolotla","13034_Santiago Tezontlale","13034_Santiago","Lolotla","130340026003A800",0.146666666666667
+"137","Huejutla de Reyes","13028_Tlahuatempa","13062_Teyahuala","Tepehuacán de Guerrero","130620027002A800",0.14851684263449
+"138","Tecozautla","13059_Rancho Pathesito","13059_Rancho Viejo","Tecozautla","1305900480043800",0.148779461279461
+"139","Tlahuiltepa","13071_Tlanchinol","13071_Tonchi","Tlahuiltepa","1307101360029800",0.152777777777778
+"140","Atlapexco","13011_Calnali","13081_Coatlila","Zacualtipán de Ángeles","1308100040059800",0.153013653013653
+"141","Calnali","13014_Barrio San Juan Mezcalpa","13029_Barrio San Juan Mandho","Huichapan","1302901180078800",0.16031746031746
+"142","San Salvador","13054_Yolotepec","13034_Contepec","Lolotla","130340009003A800",0.16031746031746
+"143","Tlahuelilpan","13070_Tlanchinol","13075_Tlaloc","Tolcayuca","1307500120013800",0.162247474747475
+"144","Metztitlán","13037_Colonia Tenhe","13037_Tablon Chico","Metztitlán","1303700740084800",0.162585282651072
+"145","Tianguistengo","13068_San Jose Las Cruces","13061_San Jose De Jesus","Tepeapulco","1306100730037800",0.164286803966438
+"146","Francisco I. Madero","13023_El Quince","13024_El Huariche","Huasca de Ocampo","1302400700014800",0.164705882352941
+"147","Francisco I. Madero","13023_El Quince","13052_El Huizache","San Agustín Tlaxiaca","1305200330023800",0.164705882352941
+"148","Juárez Hidalgo","13033_Lolotla","13037_Olotla","Metztitlán","130370029007A800",0.165811965811966
+"149","Juárez Hidalgo","13033_Lolotla","13037_Zotola","Metztitlán","1303700600050800",0.165811965811966
+"150","Juárez Hidalgo","13033_Lolotla","13073_Lontla","Tlanchinol","1307300240023800",0.165811965811966
+"151","Juárez Hidalgo","13033_Lolotla","13073_Olotla","Tlanchinol","1307300250038800",0.165811965811966
+"152","San Agustín Metzquititlán","13036_San Bartolo Tutotepec","13061_San Bartolome Tepetates","Tepeapulco","1306100140037800",0.169072870971921
+"153","Tepetitlán","13064_Tianguistengo","13073_Tianguis","Tlanchinol","1307300450038800",0.170426065162907
+"154","Tepetitlán","13064_Tianguistengo","13073_Tianguis","Tlanchinol","1307300450038800",0.170426065162907
+"155","Mixquiahuala de Juárez","13041_Mixquiahuala  (La Pena)","13047_Mixquiahuales","Pacula","1304700140023800",0.173018753781004
+"156","Santiago Tulantepec de Lugo Guerrero","13056_Tasquillo","13046_Talol","San Felipe Orizatlán","1304600550045800",0.174747474747475
+"157","La Misión","13040_Barrio Santa Maria","13073_Barrio Santa Cecilia","Tlanchinol","1307301190042800",0.176731893837157
+"158","Tasquillo","13058_Tenango De Doria","13018_Tenango","Chapulhuacán","1301800430021800",0.177156177156177
+"159","Tasquillo","13058_Tenango De Doria","13018_Tenango","Chapulhuacán","1301800430021800",0.177156177156177
+"160","Juárez Hidalgo","13033_La Mision","13032_La Ilusion","Jaltocán","1303200160016800",0.177777777777778
+"161","Tecozautla","13059_Barrio Morales","13025_Barrio Alto","Huautla","1302500720026800",0.182633053221289
+"162","Ixmiquilpan","13030_Barrio Fitzhi","13043_Barrio Alto","Nicolás Flores","1304300520043800",0.183694530443756
+"163","Mineral del Chico","13038_Colonia Tenhe","13048_Colonia Del Valle","Pachuca de Soto","1304802480020800",0.186117467581999
+"164","Agua Blanca de Iturbide","13004_Ajacuba","13042_Acayuca","Molango de Escamilla","1304200020012800",0.187179487179487
+"165","Nicolás Flores","13043_Omitlan De Juarez","13043_Villa Juarez","Nicolás Flores","130430026001A800",0.190569645732689
+"166","San Felipe Orizatlán","13046_Manzanas Iii","13015_Manzanitas","Cardonal","1301500720034800",0.193554131054131
+"167","San Agustín Tlaxiaca","13052_San Agustin Tlaxiaca (Mexiquito)","13006_San Agustin Tlalixticapa","Alfajayucan","1300600280020800",0.194579397210976
+"168","San Agustín Tlaxiaca","13052_San Agustin Tlaxiaca (Mexiquito)","13006_San Agustin Tlalixticapa","Alfajayucan","1300600280020800",0.194579397210976
+"169","San Agustín Tlaxiaca","13052_San Agustin Tlaxiaca (Mexiquito)","13006_San Agustin Tlalixticapa","Alfajayucan","1300600280020800",0.194579397210976
+"170","San Agustín Tlaxiaca","13052_San Agustin Tlaxiaca (Mexiquito)","13006_San Agustin Tlalixticapa","Alfajayucan","1300600280020800",0.194579397210976
+"171","Pisaflores","13049_San Bartolo Tutotepec","13061_San Bartolome Tepetates","Tepeapulco","1306100140037800",0.195218468206974
+"172","Mixquiahuala de Juárez","13041_Mixquiahuala  (Donfhi)","13047_Mixquiahuales","Pacula","1304700140023800",0.195488721804511
+"173","Jacala de Ledezma","13031_Juarez","13043_Villa Juarez","Nicolás Flores","130430026001A800",0.202861952861953
+"174","Jaltocán","13032_Juarez","13043_Villa Juarez","Nicolás Flores","130430026001A800",0.202861952861953
+"175","Actopan","13003_Agua Blanca De Iturbide","13007_Agua Bendita","Almoloya","1300701790028800",0.205469160844414
+"176","Actopan","13003_Agua Blanca De Iturbide","13007_Agua Bendita","Almoloya","1300701790028800",0.205469160844414
+"177","Actopan","13003_Agua Blanca De Iturbide","13036_Agua Bendita","San Agustín Metzquititlán","1303600020034800",0.205469160844414
+"178","Actopan","13003_Agua Blanca De Iturbide","13036_Agua Bendita","San Agustín Metzquititlán","1303600020034800",0.205469160844414
+"179","Actopan","13003_Agua Blanca De Iturbide","13039_Agua Bendita","Mineral del Monte","1303900380017800",0.205469160844414
+"180","Actopan","13003_Agua Blanca De Iturbide","13039_Agua Bendita","Mineral del Monte","1303900380017800",0.205469160844414
+"181","Metztitlán","13037_Mineral Del Chico","13036_Carrizal Chico","San Agustín Metzquititlán","130360007002A800",0.221497584541063
+"182","Huazalingo","13026_Huejutla De Reyes","13046_Hueytlale","San Felipe Orizatlán","1304600240026800",0.226086956521739
+"183","Tepeji del Río de Ocampo","13063_Localidad El Eden","13046_El Eden","San Felipe Orizatlán","1304601740045800",0.226727982162765
+"184","Tepeji del Río de Ocampo","13063_Localidad El Eden","13046_El Eden","San Felipe Orizatlán","1304601740045800",0.226727982162765
+"185","Mixquiahuala de Juárez","13041_Mixquiahuala (Col. Taxhuada)","13047_Mixquiahuales","Pacula","1304700140023800",0.229102167182663
+"186","Santiago de Anaya","13055_La Joya (Fraccionamiento)","13053_La Joya","San Bartolo Tutotepec","1305301130020800",0.229942100909843
+"187","Santiago de Anaya","13055_La Joya (Fraccionamiento)","13056_La Joya","Santiago Tulantepec de Lugo Guerrero","130560028015A800",0.229942100909843
+"188","Santiago de Anaya","13055_La Joya (Fraccionamiento)","13057_La Joya","Singuilucan","1305700360015800",0.229942100909843
+"189","Santiago de Anaya","13055_La Joya (Fraccionamiento)","13059_La Joya","Tecozautla","1305900160024800",0.229942100909843
+"190","El Arenal","13009_Colonia 20 De Mayo","13007_Colonia Martinez","Almoloya","1300701720047800",0.233270202020202
+"191","San Agustín Tlaxiaca","13052_San Agustin Tlaxiaca (Barrio Casa Grande)","13006_San Agustin Tlalixticapa","Alfajayucan","1300600280020800",0.238250591016548
+"192","San Agustín Tlaxiaca","13052_San Agustin Tlaxiaca  (Barrio Casa Grande)","13006_San Agustin Tlalixticapa","Alfajayucan","1300600280020800",0.241944444444444
+"193","Tecozautla","13059_Col. 20 De Noviembre","13059_El Geiser","Tecozautla","1305900490043800",0.246153846153846
+"194","Tecozautla","13059_Ejido Tagui 3 (Localidad)","13035_Ejido Apulco","Metepec","1303500350022800",0.249820788530466
+"195","Progreso de Obregón","13050_Col. Tenhe (Mixquiahuala)","13080_Tenexapa","Yahualica","1308000390013800",0.251920122887865
