@@ -1,4 +1,4 @@
-datos = sf::read_sf("app/assets/Datos/Datos_2012_2023_shp/Datos_2012_2023_prueba.shp")
+datos = sf::read_sf("app/assets/Datos/Datos_2012_2023_shp/Datos_2012_2023_poligonos.shp")
 
 pozos_unicos = datos |> 
   dplyr::select(CVEGEO_LOC,NOM_MUN,NOMGEO_LOC, f_abast)
@@ -24,6 +24,14 @@ conteo = p |> sf::st_drop_geometry() |>
 
 unicas_geometrias = p |>  dplyr::distinct(geometry,.keep_all = T) |> 
   dplyr::select(CVEGEO_LOC, geometry)
+
+
+duplicadas = unicas_geometrias |>  sf::st_drop_geometry() |> 
+  dplyr::group_by(CVEGEO_LOC) |>  dplyr::summarise(contar = dplyr::n()) |> 
+  dplyr::filter(contar > 1)
+
+which(unicas_geometrias$CVEGEO_LOC  %in% duplicadas$CVEGEO_LOC)
+unicas_geometrias = unicas_geometrias[-c(88,133,256,268),]
 
 conteo = merge(x = conteo, y = unicas_geometrias, by = "CVEGEO_LOC", all.x = T)
 conteo = sf::st_as_sf(x = conteo, crs = sf::st_crs(unicas_geometrias))
@@ -69,11 +77,12 @@ for (i in 1:nrow(conteo)) {   #nrow(conteo)
   aleatorio = aleatorio |>  sf::st_as_sf() |>  dplyr::mutate(id = interes$CVEGEO_LOC)
   puntos_list[[i]] = aleatorio  
 }
+
 puntos_sf = dplyr::bind_rows(puntos_list)
 separador = sf::st_cast(x = puntos_sf, to = "POINT")
 
 which(separador$id == "130480001")
-separador = separador[-c(460:463),]    # Por el caso raro de 130480001 genero 4 puntos de mas
+separador = separador[-c(544:547),]    # Por el caso raro de 130480001 genero 4 puntos de mas
 
 identical(separador$id, p$CVEGEO_LOC)
 
