@@ -4,9 +4,24 @@ library(leaflet.extras2)
 library(htmltools)
 library(htmlwidgets)
 
-
+lapply(datos, class)
 datos = sf::read_sf("app/assets/Datos/Datos_2012_2023_shp/Definitivos/Datos_2012_2023_poligonos.shp")
+datos = datos |> 
+  dplyr::mutate(dplyr::across(dplyr::where(is.character), ~ dplyr::na_if(., "ND")),
+                across(dplyr::where(is.character), ~dplyr::na_if(., "NR")))  
+
+datos =  datos |> 
+  mutate(across(8:28, as.numeric))
+  
+
 datos_mapa = sf::read_sf("app/assets/Datos/Datos_2012_2023_shp/Definitivos/Datos_2012_2023_RandomPuntos.shp")
+datos_mapa = datos_mapa |> 
+  dplyr::mutate(dplyr::across(dplyr::where(is.character), ~ dplyr::na_if(., "ND")),
+                across(dplyr::where(is.character), ~dplyr::na_if(., "NR")))  
+
+datos_mapa =  datos_mapa |> 
+  mutate(across(8:28, as.numeric))
+
 
 
 modal_1 = HTML(paste0(
